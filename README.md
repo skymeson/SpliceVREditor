@@ -1,7 +1,7 @@
-# Splice VR Editor
+# SpliceVR Editor
 
-[Splice VR Editor Wiki](https://github.com/SpliceVR/SpliceVREditor/wiki)
+[SpliceVR Editor Wiki](https://github.com/SpliceVR/SpliceVREditor/wiki)
 
-[Splice VR Blog](http://splicevr.com/blog/)
+[SpliceVR Blog](http://splicevr.com/blog/)
 
-[Splice VR Editor Dev Build](http://splicevr.com/dev/)
+[SpliceVR Editor Dev Build](http://splicevr.com/dev/)
