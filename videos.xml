@@ -1,0 +1,42 @@
+<!--
+SpliceVR Editor: A video editor for cinematic virtual reality
+Copyright (C) 2015 Alex Meagher Grau
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<media>
+	<video>
+		<uri>http://c72fc895a70c90b004b3-8bb66225b2659ad5ad3afaa6e275a207.r91.cf5.rackcdn.com/bike.webm</uri>
+		<title>Formentera</title>
+		<thumbnail>http://c66a3752efdd31993e7e-6569b71d98d22f2120df06b1c0e378ea.r26.cf5.rackcdn.com/formentera.png</thumbnail>
+	</video>
+	<video>
+		<uri>http://c72fc895a70c90b004b3-8bb66225b2659ad5ad3afaa6e275a207.r91.cf5.rackcdn.com/dkny.webm</uri>
+		<title>DKNY</title>
+		<thumbnail>http://c66a3752efdd31993e7e-6569b71d98d22f2120df06b1c0e378ea.r26.cf5.rackcdn.com/dkny.png</thumbnail>
+	</video>
+	<video>
+		<uri>http://c72fc895a70c90b004b3-8bb66225b2659ad5ad3afaa6e275a207.r91.cf5.rackcdn.com/twosigma.webm</uri>
+		<title>Two Sigma</title>
+		<thumbnail>http://c66a3752efdd31993e7e-6569b71d98d22f2120df06b1c0e378ea.r26.cf5.rackcdn.com/twosigma.png</thumbnail>
+	</video>
+	<video>
+		<uri>http://c72fc895a70c90b004b3-8bb66225b2659ad5ad3afaa6e275a207.r91.cf5.rackcdn.com/skydive_web_v2.webm</uri>
+		<title>Skydive</title>
+		<thumbnail>http://c66a3752efdd31993e7e-6569b71d98d22f2120df06b1c0e378ea.r26.cf5.rackcdn.com/skydive.png</thumbnail>
+	</video>
+	<video>
+		<uri>http://c72fc895a70c90b004b3-8bb66225b2659ad5ad3afaa6e275a207.r91.cf5.rackcdn.com/gng_teaser_short.webm</uri>
+		<title>Ghost And Goblin</title>
+		<thumbnail>http://c66a3752efdd31993e7e-6569b71d98d22f2120df06b1c0e378ea.r26.cf5.rackcdn.com/gng.png</thumbnail>
+	</video>
+</media>
