@@ -19,17 +19,22 @@ GNU General Public License for more details.
 		this.thumbnails = [];
 		var xhttp = new XMLHttpRequest();
 		xhttp.open('GET', 'videos.xml', false);
-		xhttp.send();
-		var videosDoc = xhttp.responseXML;
-		var videosStr = videosDoc.getElementsByTagName('title');
-		for(var i = 0; i < videosStr.length; i++){
-			this.titles[i] = videosStr[i].childNodes[0].nodeValue;
+		try{
+			xhttp.send();
+			var videosDoc = xhttp.responseXML;
+			var videosStr = videosDoc.getElementsByTagName('title');
+			for(var i = 0; i < videosStr.length; i++){
+				this.titles[i] = videosStr[i].childNodes[0].nodeValue;
+			}
+			var thumbnailStr = videosDoc.getElementsByTagName('thumbnail');
+			for(var i = 0; i < thumbnailStr.length; i++){
+				this.thumbnails[i] = new Image();
+				this.thumbnails[i].crossOrigin = "";
+				this.thumbnails[i].src = thumbnailStr[i].childNodes[0].nodeValue;
+			}
 		}
-		var thumbnailStr = videosDoc.getElementsByTagName('thumbnail');
-		for(var i = 0; i < thumbnailStr.length; i++){
-			this.thumbnails[i] = new Image();
-			this.thumbnails[i].crossOrigin = "";
-			this.thumbnails[i].src = thumbnailStr[i].childNodes[0].nodeValue;
+		catch(e){
+			
 		}
 	};
 })(window);
