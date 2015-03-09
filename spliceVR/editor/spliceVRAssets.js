@@ -41,7 +41,6 @@ GNU General Public License for more details.
 		this.y = this.transY/renderFrame.hudScaleY;
 		if(renderBottombar.show)
 			this.y = this.y+0.25;
-		
 		var modelViewMatrix = mat4.create();
 		mat4.identity(modelViewMatrix);
 		mat4.scale(modelViewMatrix,modelViewMatrix,[renderFrame.hudScaleX, renderFrame.hudScaleY,1.0]);

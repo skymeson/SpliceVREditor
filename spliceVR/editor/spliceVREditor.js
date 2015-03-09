@@ -39,7 +39,6 @@ GNU General Public License for more details.
 	var renderThread;
 
 	document.addEventListener("DOMContentLoaded", function(event) {
-
 		renderFrame = new SpliceVRFrame();
 		renderUtil = new SpliceVRUtil();
 
@@ -47,7 +46,6 @@ GNU General Public License for more details.
 		glProgram = new SpliceVRUtil.Program(gl, 'GLProgram',SpliceVRUtil.GL_PROGRAM_VER_,SpliceVRUtil.GL_PROGRAM_PIX_,['a_xyz', 'a_uv'], ['u_projectionMatrix', 'u_modelViewMatrix']);
 		glProgram.beginLinking();
 		glProgram.endLinking();
-		
 		spliceVideos = new SpliceVRVideos();
 		renderSidebar = new SpliceVRSidebar();
 		renderBottombar = new SpliceVRBottombar();
@@ -58,7 +56,6 @@ GNU General Public License for more details.
 		input = new SpliceVRInput();
 		
 		var updateThread = setInterval(function() {update();}, 100);
-		
 		renderThread = requestAnimationFrame(render);
 	});
 	

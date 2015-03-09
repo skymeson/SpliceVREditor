@@ -145,6 +145,4 @@ GNU General Public License for more details.
 		this.x = x1;
 		this.y = y1;
 	};
-	
-	
 })(window);
